@@ -1,0 +1,105 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #001f4d;
+  color: white;
+}
+
+header {
+  background: #00264d;
+  padding: 1rem;
+  text-align: center;
+}
+
+.top-ad {
+  background: yellow;
+  color: black;
+  text-align: center;
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  padding: 1rem;
+}
+
+.ad {
+  background: yellow;
+  color: black;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+main {
+  flex: 1;
+  padding: 1rem;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.controls input, .controls select {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: #00264d;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card:hover {
+  background: #003366;
+}
+
+.tool-container {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #00264d;
+  border-radius: 8px;
+}
+
+/* Buttons and inputs inside tools */
+.tool-container input, .tool-container button, .tool-container select, .tool-container textarea {
+  margin: 5px 0;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.tool-container button {
+  background: #003366;
+  color: white;
+  cursor: pointer;
+}
+
+.tool-container button:hover {
+  background: #004080;
+}
+
+footer {
+  background: #00264d;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
